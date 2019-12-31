@@ -1,0 +1,447 @@
+* {
+    margin-top:0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+    width:100%;
+    min-height:65px;
+    background-color: #000;
+    margin: auto;
+    background-attachment: scroll;
+}
+#header ul{
+    margin-left: -42px;
+    float: left;
+    margin-top:18px;
+    display: inline-block;
+    padding-top: 0px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#header li{
+    display: block;
+
+    text-align:center;
+    float:left;
+    width:100px;
+}
+#header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    
+    line-height: 20px;
+}
+#header ul li a:hover{
+    text-decoration: underline;
+ 
+}
+
+#header #input{
+    float: left;
+    line-height: 20px;
+    width:350px;
+    margin-top: 18px;
+    font-size: 15px;
+
+}
+
+#header #iconcari{
+    float: left;
+    position: relative;
+    z-index: 1;
+    left: -3%;
+    top: 3px;
+    cursor: pointer;
+  
+
+}
+
+#header #iconcari img{
+    height: 23px;
+    width: 25px;
+}
+#header .container{
+    width:1000px;
+    min-height:65px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+
+}
+#header img{
+    margin-left: 0px;
+    padding-right: 15px;
+    margin-top:18px;
+    float:left;
+}
+
+#wrapper {
+    margin-top: 0px;
+    width:1000px;
+    min-height: 700px;
+    text-align: center;
+   
+  
+    overflow:visible;
+    margin: auto;
+    
+    
+}
+
+#header2 {
+    width:1000px;
+    min-height:65px;
+   
+    margin: auto;
+    background-attachment: scroll;
+}
+
+#header2 #left{
+    width:700px;
+    min-height:65px;
+    
+    float: left;
+}
+
+#header2 #left img{
+    padding-top: 8px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#header2 #left a{
+    padding-top: 12px;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+    padding-right: 20px;
+    line-height: 20px;
+}
+#header2 #left a:hover{
+    text-decoration: underline;
+ 
+}
+#header2 #right{
+    float: right;
+    width:300px;
+    min-height:65px;
+    
+}
+
+#header2 #right img{
+    padding-top: 8px;
+    margin-right: -50px;
+}
+
+#wrapper #right img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #slider{
+
+    width:1000px;
+    height:500px;
+    margin-top: 20px;
+}
+
+#wrapper #slider img{
+    width:1000px;
+    height: 500px;
+}
+
+#wrapper #slider2{
+
+    width:1000px;
+    height:250px;
+    margin-top: 20px;
+}
+.swiper-slide {
+    float: left;
+}
+
+.cms-full li{
+    display: list-item;
+    list-style: none;
+}
+
+.b-catalogList__itm{
+    list-style: none;
+    visibility: visible;
+    position: relative;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.b-catalogList__itm .b-catalogList__itmImageWrapper{
+    height: 327px;
+    visibility: visible;
+    width: 224px !important;
+    margin-right: 8px !important;
+    margin-left: 10px !important;
+}
+
+.b-catalogList__itm .b-catalogList__itmImageWrapper img{
+    pointer-events: none;
+    vertical-align: middle;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-bottom-color: currentColor;
+    border-left-color: currentColor;
+}
+
+.b-catalogList__itm .b-catalogList__itmBrand{
+    border-bottom: 0 !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.b-catalogList__itmTitle {
+    padding-right: 0px !important;
+    color: #000 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
+
+.b-catalogList__itmBrand, .b-catalogList__itmPrice, .b-catalogList__itmTitle, .itm-brand, .itm-price, .itm-title {
+    text-align: center !important;
+}
+
+.b-catalogList__itmPrice.old {
+    color: #000 !important;
+    font-size: 13px !important;
+    line-height: 1.7em !important;
+}
+
+.b-catalogList__itmPrice.special {
+    color: #820000;
+}
+
+/* #wrapper #slider2 img:hover{
+    opacity: 0.5;
+    background: transparent;
+} */
+.cms-row {
+    clear: both;
+}
+.cms-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.cms-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.cms-section-heading {
+    padding-bottom: 0px !important;
+    border-bottom: 0 !important;
+    letter-spacing: 0px;
+    font-weight: 700 !important;
+}
+.cms-section-heading {
+    text-transform: none;
+    font-size: 28px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+.cms-section-heading {
+    display: inline-block;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cms-section-heading, .cms-sub-heading {
+    font-family: Apercu,arial,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.cms-ccb .cms-ccb-inner-left a, .cms-section-heading, .cms-sis-section-heading {
+    border-bottom: 1px solid #000;
+}
+.cms-section-heading {
+    display: inline-block;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cms-section-heading, .cms-sub-heading {
+    font-family: Apercu,arial,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.cms-ccb .cms-ccb-inner-left a, .cms-section-heading, .cms-sis-section-heading {
+    border-bottom: 1px solid #000;
+}
+.txtCenter {
+    text-align: center;
+}
+
+.cms-full {
+    width: 100%;
+}
+
+.btn.btn--secondary:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+.btn.btn--secondary {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+.btn.btn--inverted, .btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#wrapper #slider3{
+
+    width:1000px;
+    height:40px;
+    margin-top: 20px;
+}
+    
+#wrapper #slider3 img{
+    width:1000px;
+    height:40px;
+}
+
+#wrapper #slider3 img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper #brands{
+    margin-top: 80px;
+    width:1000px;
+    min-height:250px;
+}
+
+#wrapper #brands h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#wrapper #brands img{
+  
+    float: left;
+    height:70px;
+    margin-left:10px;
+
+}
+
+#wrapper #brands img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+#wrapper .cms-row{
+    margin-top: 80px;
+    width:1000px;
+    min-height:45px;
+}
+
+#wrapper .cms-row h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#wrapper .cms-row img{
+    float: left;
+    /* height:300px; */
+    /* margin-left:10px; */
+    margin-bottom: 20px;
+    /* -moz-transition: all .3s ease-out; */
+    /* -o-transition: all .3s ease-out; */
+    vertical-align: middle;
+}
+
+#wrapper .cms-row img:hover{
+    opacity: 0.5;
+    background: transparent;
+}
+
+.cms-row .product_site .productimgkanan{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#cms-sp-primary-neg-mtop{
+    /* visibility: visible; */
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 700;
+}
+#slider2 .cms-full .cms-section-heading{
+    padding-bottom: 0px !important;
+    border-bottom-width: 0px !important;
+    border-bottom-style: none !important;
+    border-bottom-color: currentColor !important;
+    letter-spacing: 0px;
+    font-weight: 700 !important;
+    font-size: 28px;
+    text-transform: none;
+    display: inline-block;
+    font-family: Apercu,arial,sans-serif;
+}
+#wrapper .cms-row .product_site{
+    float:left;
+    /* width:333px; */
+
+}
+#wrapper .cms-row .cms-section-heading{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#wrapper .cms-row p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+
+}
+
+
+
+
+
